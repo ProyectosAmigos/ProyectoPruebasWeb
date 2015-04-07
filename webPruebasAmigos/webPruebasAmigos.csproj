@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="PaginasWeb\Home.aspx" />
+    <Content Include="PaginasWeb\Seccion1.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -75,6 +76,13 @@
     </Compile>
     <Compile Include="PaginasWeb\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginasWeb\Seccion1.aspx.cs">
+      <DependentUpon>Seccion1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginasWeb\Seccion1.aspx.designer.cs">
+      <DependentUpon>Seccion1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
