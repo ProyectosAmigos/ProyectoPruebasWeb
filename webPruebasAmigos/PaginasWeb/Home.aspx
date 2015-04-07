@@ -10,7 +10,7 @@
 <body>
     <form id="form1" runat="server">
     <div>
-        "Hola Mundo"
+        "Hola/n Loco/n"
     </div>
     </form>
 </body>
