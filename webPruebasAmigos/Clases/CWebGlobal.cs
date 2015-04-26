@@ -7,14 +7,15 @@ namespace webPruebasAmigos.Clases
 {
     public static class CWebGlobal
     {
-        
+//Inicio Cambios David 26/04/2015
+//Incorporación de Regiones         
 #region Constantes    
     //Ruta de conexión a la base de datos
     public const string cadenaConexion = "Server=85.10.205.173;Database=amigosddbb;User Id=amigo1user;Password=amigo1pass;";
     
     public const Decimal iva = 0.21m;
 #endregion
-
+//Fin Cambios David 26/04/2015
 
     public static int idPaisEspania = 1;
 
