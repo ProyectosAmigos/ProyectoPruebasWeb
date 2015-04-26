@@ -16,16 +16,21 @@ namespace webPruebasAmigos.Clases
 
     public static int idPaisEspania = 1;
 
+
+
     //'Ruta a las imagenes que dependen del idioma
     //'Public Shared Property rutaImagenesIdioma As String = "~/imagesESP/"
+    //'Public Shared Property rutaImagenesIdioma As String = "~/imagesESP/"
 
-    /*public static fun formateaFecha(fecha As Date, idioma As String) As String
+
+        fsdf
+    public  fun formateaFecha(fecha As Date, idioma As String) As String
         If idioma.Contains("English") Then
             Return Format(fecha, "MM/dd/yyyy")
         Else
             Return Format(fecha, "dd/MM/yyyy")
         End If
-    End Function*/
+    End Function
     }
 
 }
