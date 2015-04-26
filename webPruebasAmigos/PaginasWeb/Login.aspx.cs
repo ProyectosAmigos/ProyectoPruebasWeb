@@ -15,7 +15,7 @@ namespace webPruebasAmigos.PaginasWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            MySqlConnection myCon = new MySqlConnection("Server=85.10.205.173;Database=amigosddbb;User Id=amigo1user;Password=amigo1pass;");
+            MySqlConnection myCon = new MySqlConnection("rSever=85.10.205.173;Database=amigosddbb;User Id=amigo1user;Password=amigo1pass;");
 
             try
             {
