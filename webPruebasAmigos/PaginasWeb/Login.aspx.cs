@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using MySql;
 using MySql.Data.MySqlClient;
 using MySql.Web;
+using webPruebasAmigos.Clases;
 
 
 namespace webPruebasAmigos.PaginasWeb
@@ -15,7 +16,7 @@ namespace webPruebasAmigos.PaginasWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            MySqlConnection myCon = new MySqlConnection("rSever=85.10.205.173;Database=amigosddbb;User Id=amigo1user;Password=amigo1pass;");
+            MySqlConnection myCon = new MySqlConnection(CWebGlobal.cadenaConexion);
 
             try
             {
@@ -35,8 +36,9 @@ namespace webPruebasAmigos.PaginasWeb
 
         protected void btnLogin_Click(object sender, EventArgs e)
         {
-            MySqlConnection myCon = new MySqlConnection("Server=85.10.205.173;Database=amigosddbb;User Id=amigo1user;Password=amigo1pass;");
-            MySqlCommand cmd  = new MySqlCommand("SELECT USERID,USERPASS FROM USERS WHERE USERID = '" + txtUserName.Text + "' AND USERPASS = '" + txtUserPassword.Text + "'", myCon);
+            MySqlConnection myCon = new MySqlConnection(CWebGlobal.cadenaConexion);
+            MySqlCommand cmd  = new MySqlCommand("SELECT USERID,USERPASS FROM USERS WHERE USERID = '" + 
+                txtUserName.Text + "' AND USERPASS = '" + txtUserPassword.Text + "'", myCon);
             MySqlDataReader drResultado;
             MySqlDataAdapter da = new MySqlDataAdapter();
             try
