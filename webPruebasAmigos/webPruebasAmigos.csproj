@@ -75,6 +75,7 @@
     <Content Include="PaginasWeb\Seccion1.aspx" />
     <Content Include="PaginasWeb\Login.aspx" />
     <Content Include="PaginasWeb\blabla.aspx" />
+    <Content Include="PaginasWeb\Untitled-2.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
