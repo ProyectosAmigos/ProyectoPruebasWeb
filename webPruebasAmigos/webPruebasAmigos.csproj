@@ -70,12 +70,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Anotaciones\Codigo sencillo HTML.txt" />
+    <Content Include="CSS\estilo formulario de prueba.css" />
     <Content Include="CSS\style.css" />
     <Content Include="PaginasWeb\Home.aspx" />
     <Content Include="PaginasWeb\Seccion1.aspx" />
     <Content Include="PaginasWeb\Login.aspx" />
     <Content Include="PaginasWeb\blabla.aspx" />
-    <Content Include="PaginasWeb\Untitled-2.html" />
+    <Content Include="PaginasWeb\Formulario de prueba.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -107,6 +108,13 @@
     </Compile>
     <Compile Include="PaginasWeb\blabla.aspx.designer.cs">
       <DependentUpon>blabla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginasWeb\Formulario de prueba.aspx.cs">
+      <DependentUpon>Formulario de prueba.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginasWeb\Formulario de prueba.aspx.designer.cs">
+      <DependentUpon>Formulario de prueba.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
