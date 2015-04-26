@@ -69,10 +69,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CSS\StyleSheet1.css" />
+    <Content Include="CSS\style.css" />
     <Content Include="PaginasWeb\Home.aspx" />
     <Content Include="PaginasWeb\Seccion1.aspx" />
     <Content Include="PaginasWeb\Login.aspx" />
+    <Content Include="PaginasWeb\blabla.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -97,6 +98,13 @@
     </Compile>
     <Compile Include="PaginasWeb\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PaginasWeb\blabla.aspx.cs">
+      <DependentUpon>blabla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PaginasWeb\blabla.aspx.designer.cs">
+      <DependentUpon>blabla.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
