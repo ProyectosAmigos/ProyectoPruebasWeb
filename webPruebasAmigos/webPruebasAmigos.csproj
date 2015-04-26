@@ -69,6 +69,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Anotaciones\Codigo sencillo HTML.txt" />
     <Content Include="CSS\style.css" />
     <Content Include="PaginasWeb\Home.aspx" />
     <Content Include="PaginasWeb\Seccion1.aspx" />
