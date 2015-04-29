@@ -77,9 +77,11 @@
     <Content Include="PaginasWeb\Login.aspx" />
     <Content Include="PaginasWeb\blabla.aspx" />
     <Content Include="PaginasWeb\Formulario de prueba.aspx" />
+    <Content Include="Recursos\Controles de usuario\login.ascx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\CSesion.cs" />
     <Compile Include="Clases\CWebGlobal.cs" />
     <Compile Include="PaginasWeb\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
@@ -117,6 +119,13 @@
       <DependentUpon>Formulario de prueba.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recursos\Controles de usuario\login.ascx.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recursos\Controles de usuario\login.ascx.designer.cs">
+      <DependentUpon>login.ascx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
