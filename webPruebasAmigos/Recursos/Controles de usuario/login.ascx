@@ -1,5 +1,6 @@
 ﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="login.ascx.cs" Inherits="webPruebasAmigos.Recursos.Controles_de_usuario.login" %>
-<div>
+<form id="frmLogin" runat="server">
+    <div>
     
         <asp:Label ID="lblUserName" runat="server" Text="USUARIO:"></asp:Label>
 
@@ -19,3 +20,4 @@
         &nbsp;&nbsp;&nbsp;
         <asp:Label ID="lblMensaje" runat="server" Text=""></asp:Label>
     </div>
+</form>

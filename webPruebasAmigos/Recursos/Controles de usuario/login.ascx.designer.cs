@@ -13,6 +13,15 @@ namespace webPruebasAmigos.Recursos.Controles_de_usuario {
     public partial class login {
         
         /// <summary>
+        /// Control frmLogin.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlForm frmLogin;
+        
+        /// <summary>
         /// Control lblUserName.
         /// </summary>
         /// <remarks>

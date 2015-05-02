@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.Web.HttpContext;
 
 namespace webPruebasAmigos.Clases
 {
@@ -21,7 +20,7 @@ namespace webPruebasAmigos.Clases
         {
             get
             {
-                return _Usuario;
+                return Usuario;
             } 
             set
             {
@@ -47,7 +46,7 @@ namespace webPruebasAmigos.Clases
         {
             get
             {
-                return _SesionID;
+                return SesionID;
             }
             set
             {
@@ -60,10 +59,10 @@ namespace webPruebasAmigos.Clases
         //Declaracion de contructores
         #region Constructores
 
-        private CSesion()
+        public CSesion()
         {
-            _Usuario = "Usuario por defecto";
-            _FechaCreacion = DateTime.Now;
+            _Usuario = "Anonimo";
+            _FechaCreacion = DateTime.MinValue;
             _SesionID = 1;
         }
         #endregion

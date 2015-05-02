@@ -1,5 +1,10 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Home.aspx.cs" Inherits="webPruebasAmigos.PaginasWeb.Home" %>
 
+<%@ Register Src="~/Recursos/Controles de usuario/login.ascx" TagPrefix="uc1" TagName="login" %>
+
+
+
+<uc1:login runat="server" ID="login" />
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -8,10 +13,10 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
+    
     <div>
-        "Hola/n Locaza/n"
+        <asp:Label ID="lblHome" runat="server" Text=""></asp:Label>
     </div>
-    </form>
+
 </body>
 </html>

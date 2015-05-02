@@ -1,4 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Seccion1.aspx.cs" Inherits="webPruebasAmigos.PaginasWeb.Seccion1" %>
+﻿<uc1:login runat="server" id="login" />
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Seccion1.aspx.cs" Inherits="webPruebasAmigos.PaginasWeb.Seccion1" %>
+
+<%@ Register Src="~/Recursos/Controles de usuario/login.ascx" TagPrefix="uc1" TagName="login" %>
+
 
 <!DOCTYPE html>
 
@@ -8,10 +12,8 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
     <div>
     
     </div>
-    </form>
 </body>
 </html>

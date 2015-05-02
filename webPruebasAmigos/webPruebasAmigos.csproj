@@ -74,7 +74,6 @@
     <Content Include="CSS\style.css" />
     <Content Include="PaginasWeb\Home.aspx" />
     <Content Include="PaginasWeb\Seccion1.aspx" />
-    <Content Include="PaginasWeb\Login.aspx" />
     <Content Include="PaginasWeb\blabla.aspx" />
     <Content Include="PaginasWeb\Formulario de prueba.aspx" />
     <Content Include="Recursos\Controles de usuario\login.ascx" />
@@ -96,13 +95,6 @@
     </Compile>
     <Compile Include="PaginasWeb\Seccion1.aspx.designer.cs">
       <DependentUpon>Seccion1.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PaginasWeb\Login.aspx.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PaginasWeb\Login.aspx.designer.cs">
-      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="PaginasWeb\blabla.aspx.cs">
       <DependentUpon>blabla.aspx</DependentUpon>
