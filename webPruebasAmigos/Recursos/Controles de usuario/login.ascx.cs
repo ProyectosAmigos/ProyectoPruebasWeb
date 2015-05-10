@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Globalization;
-using webPruebasAmigos.Clases;
+using webPruebasAmigos.ClasesGenerales;
 using MySql.Data.MySqlClient;
 
 namespace webPruebasAmigos.Recursos.Controles_de_usuario

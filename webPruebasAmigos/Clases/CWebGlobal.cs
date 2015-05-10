@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace webPruebasAmigos.Clases
+namespace webPruebasAmigos.ClasesGenerales
 {
     public static class CWebGlobal
     {

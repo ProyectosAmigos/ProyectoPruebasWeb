@@ -80,7 +80,10 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClasesGenerales\CFechaAnsi.cs" />
+    <Compile Include="ClasesGenerales\CGlobal.cs" />
     <Compile Include="Clases\CSesion.cs" />
+    <Compile Include="ClasesGenerales\CUsuario.cs" />
     <Compile Include="Clases\CWebGlobal.cs" />
     <Compile Include="PaginasWeb\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using webPruebasAmigos.Clases;
+using webPruebasAmigos.ClasesGenerales;
 using webPruebasAmigos.Recursos.Controles_de_usuario;
 
 namespace webPruebasAmigos.PaginasWeb
